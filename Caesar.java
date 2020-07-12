@@ -1,6 +1,6 @@
 
 /**
- * Encrypts string withs a caesar cipherusing one or 2 keys
+ * Encrypts string with a caesar cipher using one or two keys
  * 
  * @author (Deontee Hendricks) 
  * @version (1.0)
@@ -38,7 +38,7 @@ public class CaesarCipher {
     
     public void testCaesar(){
     
-        System.out.println(encrypt("At noon be in the conference room with your hat on for a surprise party. YELL LOUD!",15));
+        System.out.println(encrypt("I work for Belethor at the general goods store",15));
     }
     
     String encryptTwoKeys(String input, int key, int keyTwo){
@@ -84,7 +84,7 @@ public class CaesarCipher {
     
     public void testEncryptTwoKeys(){
     
-        System.out.println(encryptTwoKeys("At noon be in the conference room with your hat on for a surprise party. YELL LOUD!",8,21)); 
+        System.out.println(encryptTwoKeys("Some may call these Junk, me I call them treasures",8,21)); 
     
     }
     
