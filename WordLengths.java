@@ -40,5 +40,21 @@ public class WordLengths {
         for(int i=0; i<counts.length;i++){
             System.out.println(i+" : "+counts[i]);
         }
+        
+        System.out.println("length with most values: "+indexOfMax(counts));
+    }
+    
+    int indexOfMax(int []values){
+        
+        int found = 0, max=0;
+        
+        for(int i=0;i<values.length;i++){
+            if(max<values[i]){
+                max = values[i];
+                found = i;
+            }
+        }
+        
+        return found;
     }
 }
