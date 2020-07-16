@@ -1,6 +1,8 @@
 
 /**
  * Counts the amount of words of each length in a file
+ Helper function
+ need to move file to proper place
  * 
  * @author (Deontee Hendricks) 
  * @version (1.0)
