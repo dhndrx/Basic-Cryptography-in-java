@@ -1,6 +1,6 @@
 
 /**
- * Decrypts a string encrypted with a caesar cipher using statistical analysis
+ * 
  * 
  * @author (Deontee Hendricks) 
  * @version (7/13/2020)
